@@ -8222,12 +8222,12 @@ table.dataTable.dtr-inline.collapsed>tbody>tr[role=row]>th:first-child:before {
 
 .main-sidebar-body .nav-sub-link:hover,
 .main-sidebar-body .nav-sub-link:focus {
-    color: #ffffff !important;
+   opacity: .8;
 }
 
 .main-sidebar-body .nav-sub-link:hover::before,
 .main-sidebar-body .nav-sub-link:focus::before {
-    color: #ffffff !important;
+    color: #000000 !important;
     opacity: 1 !important;
 }
 
