@@ -8350,7 +8350,7 @@ table.dataTable.dtr-inline.collapsed>tbody>tr[role=row]>th:first-child:before {
 }
 
 .main-sidebar-body .nav-sub-item.active>.nav-sub-link.active:before {
-    color: #ffffff !important;
+    color: var(--green) !important;
     opacity: 1;
 }
 
@@ -29668,7 +29668,7 @@ body.rtl {
 }
 
 .main-sidebar-body .nav-sub-item.active>.nav-sub-link.active {
-    color: var(--lightgreen) !important;
+    color: var(--green) !important;
 }
 
 .main-sidebar-body .nav-sub-item.show .nav-sub {
