@@ -76516,5 +76516,9 @@ li.nav-sub-item{
     padding: 7px;
 }
 
+.course-info-tabs{
+    display: block;
+    margin-top: 150px!important;
+}
 
 
