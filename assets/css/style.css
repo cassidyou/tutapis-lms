@@ -29668,7 +29668,7 @@ body.rtl {
 }
 
 .main-sidebar-body .nav-sub-item.active>.nav-sub-link.active {
-    color: #ffffff !important;
+    color: var(--lightgreen) !important;
 }
 
 .main-sidebar-body .nav-sub-item.show .nav-sub {
