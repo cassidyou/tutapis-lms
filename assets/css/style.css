@@ -29611,7 +29611,7 @@ body.rtl {
     padding: 4px;
     font-weight: 400;
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.4);
+    color: #000000;
 }
 
 .main-sidebar-body .nav-link .sidemenu-icon {
@@ -29678,7 +29678,7 @@ body.rtl {
 .main-sidebar-body .nav-sub-link {
     display: flex;
     align-items: center;
-    color: rgba(255, 255, 255, 0.4);
+    color: #000000;
     font-size: 13px;
     padding: 8px 0;
     position: relative;
