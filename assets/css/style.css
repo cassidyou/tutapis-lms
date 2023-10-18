@@ -76521,4 +76521,11 @@ li.nav-sub-item{
     margin-top: 150px!important;
 }
 
+@media (max-width: 425px){
+    .course-info-tabs{
+        display: block;
+        margin-top: 200px!important;
+    }
+}
+
 
