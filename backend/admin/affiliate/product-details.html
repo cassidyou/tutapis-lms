@@ -183,7 +183,7 @@
 									<a class="nav-link" href="../index.html">
 										<span class="shape1"></span>
 										<span class="shape2"></span>
-										<i class="ti-home sidemenu-icon menu-icon"></i>
+										<i class="fa fa-home sidemenu-icon menu-icon"></i>
 										<span class="sidemenu-label">Dashboard</span>
 									</a>
 								</li>
@@ -191,7 +191,7 @@
 									<a class="nav-link with-sub" href="javascript:void(0)">
 										<span class="shape1"></span>
 										<span class="shape2"></span>
-										<i  class="ti-user sidemenu-icon menu-icon "></i>
+										<i  class="fa fa-list sidemenu-icon menu-icon "></i>
 										<span class="sidemenu-label">Manage
 											<span class="sidemenu-label2">Categories</span>
 										</span>
@@ -207,7 +207,7 @@
 									<a class="nav-link with-sub" href="javascript:void(0)">
 										<span class="shape1"></span>
 										<span class="shape2"></span>
-										<i  class="ti-user sidemenu-icon menu-icon "></i>
+										<i  class="fa fa-book sidemenu-icon menu-icon "></i>
 										<span class="sidemenu-label">Manage
 											<span class="sidemenu-label2">Courses</span>
 										</span>
@@ -225,7 +225,7 @@
 									<a class="nav-link with-sub" href="javascript:void(0)">
 										<span class="shape1"></span>
 										<span class="shape2"></span>
-										<i  class="ti-user sidemenu-icon menu-icon "></i>
+										<i  class="fa fa-users sidemenu-icon menu-icon "></i>
 										<span class="sidemenu-label">Manage
 											<span class="sidemenu-label2">Users</span>
 										</span>
@@ -242,7 +242,7 @@
 									<a class="nav-link with-sub" href="javascript:void(0)">
 										<span class="shape1"></span>
 										<span class="shape2"></span>
-										<i  class="ti-user sidemenu-icon menu-icon "></i>
+										<i  class="fa fa-cog sidemenu-icon menu-icon "></i>
 										<span class="sidemenu-label">Settings
 											<span class="sidemenu-label2"></span>
 										</span>
@@ -261,7 +261,7 @@
 									<a class="nav-link with-sub" href="javascript:void(0)">
 										<span class="shape1"></span>
 										<span class="shape2"></span>
-										<i  class="ti-user sidemenu-icon menu-icon "></i>
+										<i  class="fa fa-money sidemenu-icon menu-icon "></i>
 										<span class="sidemenu-label">Transactions
 											<span class="sidemenu-label2"></span>
 										</span>
@@ -278,7 +278,7 @@
 									<a class="nav-link" href="../announcement.html">
 										<span class="shape1"></span>
 										<span class="shape2"></span>
-										<i class="ti-home sidemenu-icon menu-icon"></i>
+										<i class="fa fa-bullhorn sidemenu-icon menu-icon"></i>
 										<span class="sidemenu-label">Announcement</span>
 									</a>
 								</li>
@@ -287,7 +287,7 @@
 									<a class="nav-link with-sub" href="javascript:void(0)">
 										<span class="shape1"></span>
 										<span class="shape2"></span>
-										<i  class="ti-user sidemenu-icon menu-icon "></i>
+										<i  class="fa fa-handshake-o sidemenu-icon menu-icon "></i>
 										<span class="sidemenu-label">Affiliate Dashboard
 											<span class="sidemenu-label2"></span>
 										</span>
@@ -307,8 +307,6 @@
 				</div>
 			</div>
             <!-- END SIDEBAR -->
-
-
 
             <!-- MAIN-CONTENT -->
             <div class="main-content side-content pt-0">
@@ -339,18 +337,7 @@
 													<div class="col-12 offset-md-1 col-sm-9 col-8">
                                                         <div class=""><img src="../../../assets/img/pngs/shirt-3.png" alt="img" class="img-fluid mx-auto d-block"></div>
 													</div>
-                                                    <div class="col-12  col-lg-10">
-                                                        <label for=""><b>Affiliate link</b></label>
-                                                        <div class="input-group">
-                                                            <input class="form-control" style="height: 40px;" value="https://lms.com/product/7847632/?746552647" placeholder="Search for..." type="text">
-                                                            <span class="input-group-btn" id="link-copy-btn"  data-bs-toggle="tooltip" data-bs-placement="top" title="Click to copy">
-                                                                <button class="btn ripple btn-dark" style="height: 40px;" type="button">
-                                                                    <span class="input-group-btn" ><i class="fa fa-copy"></i></span>
-                                                                </button>
-                                                            </span>
-                                                        </div>
-                                                       
-                                                    </div>
+                                                    
 												</div>
 											</div>
 											<div class="col-xl-6 col-lg-12 col-md-12">
@@ -365,7 +352,17 @@
                                                         <span class="fe fe-star"></span>
                                                     </p>
                                                     <p class="text-muted mb-4">( 135 Customers Review )</p>
-													<h6 class="text-success text-uppercase">20 % Off</h6>
+													<div class="mb-4">
+                                                        <label for=""><b>Affiliate link</b></label>
+                                                        <div class="input-group" style="position: relative;">
+                                                            <input class="form-control" id="link-input" style="height: 40px;" value="https://lms.com/product/7847632/?746552647" placeholder="Search for..." type="text">
+																<div class="link__tooltip" style="display: none;">Link Copied!</div>
+                                                                <button class="btn ripple btn-dark"  id="link-copy-btn" style="height: 40px;" type="button">
+                                                                    <span class="input-group-btn" ><i class="fa fa-copy"></i></span>
+                                                                </button>
+                                                        </div>
+                                                       
+                                                    </div>
 													<h5 class="mb-2">Price : <span class="text-muted me-2"><del>$499 USD</del></span> <b>$299 USD</b></h5>
 													<h6 class="mt-4 fs-16">Description</h6>
 													<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
@@ -378,53 +375,60 @@
 											
 											<div class="">
 												<div class="row">
-
 													<div class="col-xl-12 mt-4">
 														<div class="card">
 															<div class="card-body p-0">
-																<div class="d-flex p-3">
+																<div class="d-flex p-3 border-bottom">
 																	<h5 class="float-start main-content-label mb-0 mt-2">All Reviews</h5>
 																</div>
-																<div class="media mt-0 p-4 border-bottom border-top">
-																	<div class="d-flex me-3">
-																		<a href="javascript:void(0);"><img class="media-image avatar avatar-md rounded-circle" alt="64x64" src="../../../assets/img/users/8.jpg"> </a>
+																<div class="row">
+																	<div class="col-md-6 mb-4">
+																		<div class="media mt-0 p-4 border-bottom border-end border-start border-top">
+																			<div class="d-flex me-3">
+																				<a href="javascript:void(0);"><img class="media-image avatar avatar-md rounded-circle" alt="64x64" src="../../../assets/img/users/8.jpg"> </a>
+																			</div>
+																			<div class="media-body">
+																				<h5 class="mt-0 mb-1 font-weight-semibold tx-16">Bruce Tran
+																					<span class="fs-14 ms-0" data-bs-toggle="tooltip" data-bs-placement="top" title="check" data-bs-original-title="verified"><i class="fa fa-check-circle-o text-success"></i></span>
+																				</h5>
+																				<span class="text-muted tx-13">Tue, 20 Mar 2020</span>
+																				<p class="font-13  mb-2 mt-2">
+																				   Lorem Ipsum available, quis Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et  nostrud exercitation ullamco laboris   commodo consequat.
+																				</p>
+																			</div>
+																		</div>
 																	</div>
-																	<div class="media-body">
-																		<h5 class="mt-0 mb-1 font-weight-semibold tx-16">Bruce Tran
-																			<span class="fs-14 ms-0" data-bs-toggle="tooltip" data-bs-placement="top" title="check" data-bs-original-title="verified"><i class="fa fa-check-circle-o text-success"></i></span>
-																		</h5>
-																		<span class="text-muted tx-13">Tue, 20 Mar 2020</span>
-																		<p class="font-13  mb-2 mt-2">
-																		   Lorem Ipsum available, quis Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et  nostrud exercitation ullamco laboris   commodo consequat.
-																		</p>
+																	<div class="col-md-6 mb-4">
+																		<div class="media mt-0 border-top border-start border-end  p-4 border-bottom">
+																			<div class="d-flex me-3">
+																				<a href="javascript:void(0);"><img class="media-image avatar avatar-md rounded-circle" alt="64x64" src="../../../assets/img/users/3.jpg"> </a>
+																			</div>
+																			<div class="media-body">
+																				<h5 class="mt-0 mb-1 font-weight-semibold tx-16">Mina Harpe
+																					<span class="fs-14 ms-0" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="verified"><i class="fa fa-check-circle-o text-success"></i></span>
+																				</h5>
+																				<span class="text-muted tx-13">Tue, 20 Mar 2020</span>
+																				<p class="font-13  mb-2 mt-2">
+																				   Lorem Ipsum available, quis Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et  nostrud exercitation ullamco laboris   commodo consequat.
+																				</p>
+																			</div>
+																		</div>
 																	</div>
-																</div>
-																<div class="media mt-0  p-4 border-bottom">
-																	<div class="d-flex me-3">
-																		<a href="javascript:void(0);"><img class="media-image avatar avatar-md rounded-circle" alt="64x64" src="../../../assets/img/users/3.jpg"> </a>
-																	</div>
-																	<div class="media-body">
-																		<h5 class="mt-0 mb-1 font-weight-semibold tx-16">Mina Harpe
-																			<span class="fs-14 ms-0" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="verified"><i class="fa fa-check-circle-o text-success"></i></span>
-																		</h5>
-																		<span class="text-muted tx-13">Tue, 20 Mar 2020</span>
-																		<p class="font-13  mb-2 mt-2">
-																		   Lorem Ipsum available, quis Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et  nostrud exercitation ullamco laboris   commodo consequat.
-																		</p>
-																	</div>
-																</div>
-																<div class="media mt-0 p-4 border-bottom">
-																	<div class="d-flex me-3">
-																		<a href="javascript:void(0);"><img class="media-image avatar avatar-md rounded-circle" alt="64x64" src="../../../assets/img/users/5.jpg"> </a>
-																	</div>
-																	<div class="media-body">
-																		<h5 class="mt-0 mb-1 font-weight-semibold tx-16">Maria Quinn
-																			<span class="fs-14 ms-0" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="verified"><i class="fa fa-check-circle-o text-success"></i></span>
-																		</h5>
-																		<span class="text-muted tx-13">Tue, 20 Mar 2020</span>
-																		<p class="font-13  mb-2 mt-2">
-																		   Lorem Ipsum available, quis Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et  nostrud exercitation ullamco laboris   commodo consequat.
-																		</p>
+																	<div class="col-md-6 mb-4">
+																		<div class="media mt-0 p-4 border-bottom border-end border-start border-top">
+																			<div class="d-flex me-3">
+																				<a href="javascript:void(0);"><img class="media-image avatar avatar-md rounded-circle" alt="64x64" src="../../../assets/img/users/5.jpg"> </a>
+																			</div>
+																			<div class="media-body">
+																				<h5 class="mt-0 mb-1 font-weight-semibold tx-16">Maria Quinn
+																					<span class="fs-14 ms-0" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="verified"><i class="fa fa-check-circle-o text-success"></i></span>
+																				</h5>
+																				<span class="text-muted tx-13">Tue, 20 Mar 2020</span>
+																				<p class="font-13  mb-2 mt-2">
+																				   Lorem Ipsum available, quis Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et  nostrud exercitation ullamco laboris   commodo consequat.
+																				</p>
+																			</div>
+																		</div>
 																	</div>
 																</div>
 															</div>
@@ -520,8 +524,10 @@
 		<script src="../../../assets/plugins/sweet-alert/jquery.sweet-alert.js"></script>
 
 		<!-- CLIPBOARD JS -->
-		<script src="../../../assets/plugins/clipboard/clipboard.min.js"></script>
-		<script src="../../../assets/plugins/clipboard/clipboard.js"></script>
+		<!-- <script src="../../../assets/plugins/clipboard/clipboard.min.js"></script>
+		<script src="../../../assets/plugins/clipboard/clipboard.js"></script> -->
+
+		<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
         
         <!-- STICKY JS -->
 		<script src="../../../assets/js/sticky.js"></script>
@@ -536,22 +542,30 @@
         <script src="../../../assets/switcher/js/switcher.js"></script>
 
         <!-- END SCRIPTS -->
+		<script>
+			$(document).ready(function () {
+				// Hide the tooltip initially
+	
+				// When the button is clicked
+				$("#link-copy-btn").on('click', function () {
+					// Get the input field
+					var input = document.getElementById("link-input");
+	
+					// Select the text in the input field
+					input.select();
+					input.setSelectionRange(0, 99999); // For mobile devices
+	
+					// Copy the text to the clipboard
+					document.execCommand("copy");
 
-        <script>
-            
-            $(document).ready(function(){
-                $('#link-copy-btn').click(function () {
-                    swal(
-                        {
-                            
-                            title: 'Affiliate Link Copied!',
-                            type: 'success',
-                            confirmButtonColor: '#57a94f'
-                        }
-                    )
-                });
-            })
-        </script>
+					$('.link__tooltip').fadeIn();
+					setTimeout(() => {
+						$('.link__tooltip').fadeOut();
+					}, 2000);
+
+				});
+			});
+		</script>
 
     </body>
 </html>

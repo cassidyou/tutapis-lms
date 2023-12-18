@@ -7900,7 +7900,15 @@ a.bg-primary.focus {
 
 .main-nav-column .nav-link.active:hover,
 .main-nav-column .nav-link.active:focus {
-    color: #ffffff !important;
+    /* color: #ffffff !important; */
+}
+
+.main-nav-column .nav-link{
+    padding: 10px;
+}
+
+.main-nav-column .nav-link:hover{
+    background-color: var(--lightgreen);
 }
 
 a {
@@ -8036,17 +8044,17 @@ table.dataTable.dtr-inline.collapsed>tbody>tr[role=row]>th:first-child:before {
 }
 
 
-.profile-tab .payment-setting.main-nav-line .nav-link.active {
-    color: #0e0e23 !important;
-    font-weight: 700;
-    opacity: 1;
-   
+.profile-tab .payment-setting.main-nav-line .nav-link.active,
+.profile-tab .payment-setting.main-nav-line .nav-link:hover {
+    background-color: var(--lightgreen);
+    color: #000000!important;
 }
+
 .profile-tab .payment-setting.main-nav-line .nav-link {
     padding: 7px;
     font-weight: 500;
     margin:0!important;
-    opacity: .7;
+    color: #000000;
 }
 
 
@@ -29472,7 +29480,7 @@ body.rtl {
     z-index: 1;
     margin: 10px auto;
     text-align: center;
-    border-radius: 8px 0 0 8px;
+    /* border-radius: 8px 0 0 8px; */
     margin-left: 0;
     border: 0px solid transparent;
     border-right: 0px;
@@ -76516,9 +76524,59 @@ li.nav-sub-item{
     padding: 7px;
 }
 
+.action-border{
+    border: 1px solid #acacac;
+}
+
 .course-info-tabs{
     display: block;
     margin-top: 150px!important;
+}
+
+.nav-item{
+    cursor: pointer;
+}
+
+label{
+    opacity: 1;
+    color: #000000!important;
+}
+
+.d__card{
+    position: relative;
+}
+
+.d__card p{
+    position: relative;
+    bottom: -10px;
+    z-index: 1;
+    color: #ffffff;
+}
+
+.d__card::after{
+    content: '';
+    position: absolute;
+    background: var(--breadcrumb);
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    border-radius: inherit;
+    width: 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.link__tooltip{
+    position: absolute;
+    right: 0;
+    top: -40px;
+    background-color: var(--breadcrumb);
+    color: #ffffff;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 7px!important;
 }
 
 @media (max-width: 425px){
@@ -76527,5 +76585,7 @@ li.nav-sub-item{
         margin-top: 200px!important;
     }
 }
+
+
 
 
